@@ -11,7 +11,7 @@ var BUSINESSES = require('./_businesses.js');
 var saveLead = require('./_lead.js');
 
 var LEAD_RE = /\[\[LEAD\s+name="([^"]*)"\s+phone="([^"]*)"\s+note="([^"]*)"\]\]/;
-var MODEL = 'claude-3-5-haiku-20241022';
+var MODEL = 'claude-haiku-4-5-20251001';
 
 module.exports = async function handler(req, res) {
   if (req.method !== 'POST') {
